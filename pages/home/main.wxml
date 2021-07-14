@@ -1,0 +1,15 @@
+<view class="container">
+  <!--菜单tab-->
+  <view class="menu-wrapper">
+    <view></view>
+    <view class="menus">
+    </view>
+  red
+  </view>
+  <!--广告-->
+  <view class="ads-wrapper">
+  </view>
+  <!--实时报表tab-->
+  <view class="ywl-wrapper">
+  </view>
+</view>

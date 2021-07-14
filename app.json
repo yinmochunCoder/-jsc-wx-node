@@ -1,5 +1,8 @@
 {
+  "entryPagePath": "pages/home/main",
   "pages":[
+    "pages/home/main",          
+    "pages/home/header/header",  
     "pages/index/index",
     "pages/logs/logs"
   ],

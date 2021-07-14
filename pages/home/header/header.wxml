@@ -1,0 +1,4 @@
+<view class="title-wrapper">
+  <view class="wrapper-left"></view>
+  <view class="wrapper-right"></view>
+</view>
