@@ -1,4 +1,4 @@
-// pages/home/header/header.js
+// pages/warn/warn.js
 Page({
 
   /**

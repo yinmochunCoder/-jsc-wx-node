@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "header": "/pages/components/header/component-header",
+    "navbar": "/pages/components/navbar/component-navbar",
+    "menu": "/pages/components/menu/component-menu",
+    "scroll": "/pages/components/scroll/component-scroll"
+  }
 }

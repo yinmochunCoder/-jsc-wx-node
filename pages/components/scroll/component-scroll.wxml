@@ -1,0 +1,23 @@
+<!--pages/components/component-scroll.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-spacing">
+        <scroll-view 
+          class="scroll-view_H" 
+          scroll-x="true" 
+          bindscroll="scroll" 
+          style="width: 100%">
+          <view class="scroll-view-item_H demo-text-1" 
+            wx:for="{{scrollContents}}" 
+            wx:key="index" 
+            wx:for-item="item"
+            data-image="{{item.src}}"
+            bindtap="seeImageInfo">
+            <image src="{{item.src}}" alt="{{item.alt}}"></image>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</view>

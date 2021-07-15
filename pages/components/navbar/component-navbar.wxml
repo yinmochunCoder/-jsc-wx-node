@@ -1,0 +1,7 @@
+<!--pages/components/navbar/component-navbar.wxml-->
+<view class="navbar-wrapper" style="height: {{height}}px">
+  <view class="input-wrapper">
+    <!-- <icon class="icon-small" type="search" size="14"></icon> -->
+    <input type="text" placeholder="搜索" class="search-panel-val"/>
+  </view>
+</view>

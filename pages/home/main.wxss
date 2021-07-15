@@ -1,1 +1,9 @@
 /* pages/home/main.wxss */
+.container {
+  padding: 5px 0;
+}
+
+
+.w-100 {
+  width: 100%;
+}

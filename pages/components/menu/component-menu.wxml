@@ -1,0 +1,7 @@
+<!--pages/components/menu/component-menu.wxml-->
+<view class="flex-wrapper">
+  <view class="flex-content" wx:for="{{menus}}" wx:key="index" wx:for-item="item" bindtap="goToMenu" data-item="{{item}}">
+    <icon class="icon-small" type="{{item.type}}" size="24"></icon>
+    <view class="text">{{item.title}}</view>
+  </view>
+</view>

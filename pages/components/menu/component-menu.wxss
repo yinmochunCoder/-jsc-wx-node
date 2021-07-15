@@ -1,0 +1,16 @@
+/* pages/components/menu/component-menu.wxss */
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: left;
+  text-align: center;
+}
+
+.flex-content {
+  flex: 0 0 1;
+  padding: 10px 0;
+  font-size: 10px;
+  color: #666666;
+  width: 25%;
+}

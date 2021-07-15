@@ -1,0 +1,23 @@
+/* pages/components/component-header.wxss */
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  padding: 10px 0 5px 10px;
+  border-bottom: 1px solid rgb(233, 223, 223);
+  font-size: 12px;
+
+}
+
+.content {
+  flex: 1;
+}
+
+.wrapper-l {
+  color: #666666;
+  font-weight: 600;
+}
+.wrapper-r {
+  text-align: right;
+  margin-right: 20px;
+  color:#2482FC;
+}

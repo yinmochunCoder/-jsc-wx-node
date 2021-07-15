@@ -1,0 +1,9 @@
+<!--pages/components/component-header.wxml-->
+<view class="header-wrapper">
+  <view class="content wrapper-l">
+    <slot name="title" ></slot>
+  </view>
+  <view class="content wrapper-r">
+    <slot name="btn" bindtap="goToPages"></slot>
+  </view>
+</view>

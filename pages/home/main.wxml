@@ -1,15 +1,28 @@
-<view class="container">
+<navbar></navbar>
+<view class="container" style="margin-top: {{height}}px">
   <!--菜单tab-->
-  <view class="menu-wrapper">
-    <view></view>
-    <view class="menus">
-    </view>
-  red
+  <view class="menu-wrapper w-100">
+    <!--标题组件-->
+    <header>
+      <view slot="title">报表</view>
+      <view slot="btn">更多</view>
+    </header>
+    <menu menus="{{menuList}}"></menu>
   </view>
   <!--广告-->
-  <view class="ads-wrapper">
+  <view class="ads-wrapper w-100">
+    <!--标题组件-->
+    <header>
+      <view slot="title">广告</view>
+    </header>
+    <scroll scrollContents="{{scrollContents}}" bindtapImage="saveTheimage"></scroll>
   </view>
   <!--实时报表tab-->
-  <view class="ywl-wrapper">
+  <view class="ywl-wrapper w-100">
+    <!--标题组件-->
+    <header>
+      <view slot="title">实时报表</view>
+      <view slot="btn">查看</view>
+    </header>
   </view>
 </view>
